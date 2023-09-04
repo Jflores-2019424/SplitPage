@@ -6,17 +6,71 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
 }
 
 .container{
     display: flex;
-    align-items: centers;
 }
 
 .split-left{
-    background-image: url(./img/EeveeSplash.png);
+    background: url(./img/EeveeSplash.png)
+    no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    overflow: hidden
 }
 
 .split-right{
+    background: url(./img/Chandelure.jpg)
+    no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
 
+a{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    top: 40%;
+    text-decoration: none;
+    transform: translateX(-50%);
+    padding: 60px;
+    font-size: 50px;
+    font-weight: bolder;
+    border: 5px white solid;
+    color: white;
+}
+
+.split-left::before{
+    content: '';
+    background-color: rgba(222, 184, 135, 0.70);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.split-right::before{
+    content: '';
+    background-color: rgba(137, 43, 226, 0.70);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    justify-content: center;
+    font-size: 100px;
 }
