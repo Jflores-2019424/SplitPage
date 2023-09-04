@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-items: centers;
+}
+
+.split-left{
+
+}
+
+.split-right{
+    
+}
