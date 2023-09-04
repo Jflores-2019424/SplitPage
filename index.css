@@ -97,17 +97,17 @@ h1{
 }
 
 .hover-left .split-left{
-    width: 75%;
+    width: 64%;
 }
 
 .hover-left .split-right{
-    width: 25%;
+    width: 36%;
 }
 
 .hover-right .split-right{
-    width: 75%;
+    width: 64%;
 }
 
 .hover-right .split-left{
-    width: 25%;
+    width: 36%;
 }
