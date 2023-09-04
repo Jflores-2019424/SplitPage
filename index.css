@@ -23,6 +23,7 @@ body{
     height: 100%;
     overflow: hidden;
     color: white;
+    transition: 0.5s;
 }
 
 .split-right{
@@ -35,6 +36,7 @@ body{
     height: 100%;
     overflow: hidden;
     color: white;
+    transition: 0.5s;
 }
 
 a{
@@ -92,4 +94,20 @@ h1{
     font-size: 100px;
     color: white;
     font-weight: bolder
+}
+
+.hover-left .split-left{
+    width: 75%;
+}
+
+.hover-left .split-right{
+    width: 25%;
+}
+
+.hover-right .split-right{
+    width: 75%;
+}
+
+.hover-right .split-left{
+    width: 25%;
 }
